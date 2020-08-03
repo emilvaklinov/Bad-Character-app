@@ -18,6 +18,7 @@
 		4820D0E224D8B25C00DA45D6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E124D8B25C00DA45D6 /* APIManager.swift */; };
 		4820D0E424D8B32900DA45D6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E324D8B32900DA45D6 /* Parser.swift */; };
 		4820D0E624D8B34F00DA45D6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E524D8B34F00DA45D6 /* Model.swift */; };
+		4820D0E824D8B4EC00DA45D6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E724D8B4EC00DA45D6 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4820D0E124D8B25C00DA45D6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		4820D0E324D8B32900DA45D6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		4820D0E524D8B34F00DA45D6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4820D0E724D8B4EC00DA45D6 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 				4820D0C324D8B1AD00DA45D6 /* Assets.xcassets */,
 				4820D0C524D8B1AD00DA45D6 /* LaunchScreen.storyboard */,
 				4820D0C824D8B1AD00DA45D6 /* Info.plist */,
-				4820D0C024D8B1A900DA45D6 /* Bad_Character_app.xcdatamodeld */,
+				4820D0E924D8B54300DA45D6 /* CoreData */,
 			);
 			path = "Bad Character app";
 			sourceTree = "<group>";
@@ -149,6 +151,15 @@
 				4820D0E124D8B25C00DA45D6 /* APIManager.swift */,
 			);
 			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		4820D0E924D8B54300DA45D6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4820D0C024D8B1A900DA45D6 /* Bad_Character_app.xcdatamodeld */,
+				4820D0E724D8B4EC00DA45D6 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 				4820D0E224D8B25C00DA45D6 /* APIManager.swift in Sources */,
 				4820D0B824D8B1A900DA45D6 /* AppDelegate.swift in Sources */,
 				4820D0BA24D8B1A900DA45D6 /* SceneDelegate.swift in Sources */,
+				4820D0E824D8B4EC00DA45D6 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
