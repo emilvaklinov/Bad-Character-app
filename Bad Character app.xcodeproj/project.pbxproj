@@ -15,6 +15,9 @@
 		4820D0C424D8B1AD00DA45D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4820D0C324D8B1AD00DA45D6 /* Assets.xcassets */; };
 		4820D0C724D8B1AD00DA45D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4820D0C524D8B1AD00DA45D6 /* LaunchScreen.storyboard */; };
 		4820D0D224D8B1AE00DA45D6 /* Bad_Character_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0D124D8B1AE00DA45D6 /* Bad_Character_appTests.swift */; };
+		4820D0E224D8B25C00DA45D6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E124D8B25C00DA45D6 /* APIManager.swift */; };
+		4820D0E424D8B32900DA45D6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E324D8B32900DA45D6 /* Parser.swift */; };
+		4820D0E624D8B34F00DA45D6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D0E524D8B34F00DA45D6 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		4820D0CD24D8B1AE00DA45D6 /* Bad Character appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad Character appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4820D0D124D8B1AE00DA45D6 /* Bad_Character_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad_Character_appTests.swift; sourceTree = "<group>"; };
 		4820D0D324D8B1AE00DA45D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820D0E124D8B25C00DA45D6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4820D0E324D8B32900DA45D6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		4820D0E524D8B34F00DA45D6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,11 @@
 		4820D0B624D8B1A900DA45D6 /* Bad Character app */ = {
 			isa = PBXGroup;
 			children = (
+				4820D0E024D8B21000DA45D6 /* ApiManager */,
+				4820D0DF24D8B20200DA45D6 /* Parser */,
+				4820D0DE24D8B1F900DA45D6 /* Model */,
+				4820D0DD24D8B1E900DA45D6 /* Cells */,
+				4820D0DC24D8B1D700DA45D6 /* ViewControllers */,
 				4820D0B724D8B1A900DA45D6 /* AppDelegate.swift */,
 				4820D0B924D8B1A900DA45D6 /* SceneDelegate.swift */,
 				4820D0BB24D8B1A900DA45D6 /* ViewController.swift */,
@@ -100,6 +111,44 @@
 				4820D0D324D8B1AE00DA45D6 /* Info.plist */,
 			);
 			path = "Bad Character appTests";
+			sourceTree = "<group>";
+		};
+		4820D0DC24D8B1D700DA45D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4820D0DD24D8B1E900DA45D6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4820D0DE24D8B1F900DA45D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4820D0E524D8B34F00DA45D6 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4820D0DF24D8B20200DA45D6 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4820D0E324D8B32900DA45D6 /* Parser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		4820D0E024D8B21000DA45D6 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				4820D0E124D8B25C00DA45D6 /* APIManager.swift */,
+			);
+			path = ApiManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4820D0E624D8B34F00DA45D6 /* Model.swift in Sources */,
 				4820D0BC24D8B1A900DA45D6 /* ViewController.swift in Sources */,
 				4820D0C224D8B1A900DA45D6 /* Bad_Character_app.xcdatamodeld in Sources */,
+				4820D0E424D8B32900DA45D6 /* Parser.swift in Sources */,
+				4820D0E224D8B25C00DA45D6 /* APIManager.swift in Sources */,
 				4820D0B824D8B1A900DA45D6 /* AppDelegate.swift in Sources */,
 				4820D0BA24D8B1A900DA45D6 /* SceneDelegate.swift in Sources */,
 			);
