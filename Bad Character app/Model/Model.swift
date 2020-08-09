@@ -7,15 +7,18 @@
 //
 
 import Foundation
-
 import UIKit
 
-// MARK: - CharacterElement
-struct Character: Decodable {
-    let char_id: Int?
-    let name: String?
-    let occupation: [String]?
-    let img: String?
-    let status: String?
-    let appearance: [Int]?
+struct CharacterRoot: Codable {
+    var characters: [Character]
 }
+// MARK: - CharacterElement
+struct Character: Codable {
+    var char_id: Int64?
+    var name: String?
+    var occupation: [String]?
+    var img: String?
+    var status: String?
+    var appearance: [Int64]?
+}
+
